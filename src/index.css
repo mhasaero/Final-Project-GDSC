@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     --background: 33.43, 56.45%, 75.69%;
@@ -138,5 +142,3 @@
     background-positon-x: 0px;
   }
 }
-
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");

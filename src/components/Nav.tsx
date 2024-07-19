@@ -1,4 +1,5 @@
-import { Phone, Menu, Linkedin } from "lucide-react";
+import { Menu } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Sheet, SheetContent, SheetTrigger, SheetHeader } from "./ui/sheet";
 
 export default function Nav() {
@@ -16,19 +17,35 @@ export default function Nav() {
             <SheetContent side={"bottom"} className="bg-[#1c2657] h-[5rem]">
               <SheetHeader>
                 <ul className="flex gap-4">
-                  <li>Home</li>
-                  <li>About</li>
-                  <li>Skills</li>
-                  <li>Contact</li>
+                  <li>
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about">About</a>
+                  </li>
+                  <li>
+                    <a href="#skills">Skills</a>
+                  </li>
+                  <li>
+                    <a href="">Contact</a>
+                  </li>
                 </ul>
               </SheetHeader>
             </SheetContent>
           </Sheet>
           <ul className="hidden md:flex w-1/2 justify-between">
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Contact</li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
           </ul>
         </div>
 
