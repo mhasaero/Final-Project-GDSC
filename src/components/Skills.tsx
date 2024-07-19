@@ -5,7 +5,7 @@ import { Flag } from "lucide-react";
 
 export default function Skills() {
   return (
-    <section id="skills" className="flex mt-20 px-12 md:px-20 lg:px-28 xl:px-40 gap-8 flex-col md:flex-row scroll-mt-[100px]">
+    <section id="skills" className="flex mt-10 md:mt-32 xl:mt-40 px-12 md:px-20 lg:px-28 xl:px-40 gap-8 flex-col md:flex-row scroll-mt-[100px]">
       <Accordion type="single" collapsible className="font-times text-2xl md:text-3xl xl:text-4xl flex flex-col gap-6 lg:gap-8 w-full md:w-1/2">
         <SkillsChart rate={3} item="item-1">
           C++

@@ -3,7 +3,7 @@ import { Copyright } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer id="footer" className="relative width-[100%] bg-[#3586ff] flex flex-col-reverse pb-4 md:pb-10 min-h-20 md:min-h-40 mt-40 px-12 md:px-20 lg:px-28 xl:px-40">
+    <footer id="footer" className="relative width-[100%] bg-[#3586ff] flex flex-col-reverse pb-4 md:pb-10 min-h-20 md:min-h-40 mt-32 md:mt-40 px-12 md:px-20 lg:px-28 xl:px-40">
       <div className="waves">
         <div className="wave" id="wave1"></div>
         <div className="wave" id="wave2"></div>

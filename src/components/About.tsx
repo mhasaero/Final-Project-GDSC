@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function About() {
   return (
-    <section id="about" className="mt-20 text-primary px-12 md:px-20 lg:px-28 xl:px-40 scroll-mt-[100px]">
+    <section id="about" className="mt-10 md:mt-32 xl:mt-40 text-primary px-12 md:px-20 lg:px-28 xl:px-40 scroll-mt-[100px] ">
       <Card head="Web Developer" className="text-justify">
         Passionate web developer with 1 years of experience in crafting engaging digital experiences. Proficient in HTML, CSS, JavaScript. Skilled in front-end-development. Eager to contribute to innovative projects and continuously expand
         my skillset. Let's build something amazing together!
