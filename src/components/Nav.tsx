@@ -30,14 +30,6 @@ export default function Nav() {
             <li>Skills</li>
             <li>Contact</li>
           </ul>
-          <ul className="hidden md:flex gap-4">
-            <li className="border-2 border-primary rounded-full p-2">
-              <Phone />
-            </li>
-            <li className="border-2 border-primary rounded-full p-2">
-              <Linkedin />
-            </li>
-          </ul>
         </div>
 
         <div className="w-full border-b-2 border-primary blur-[1px] mt-3 md:mt-5 lg:mt-8"></div>

@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section id="home" className="flex mt-24 md:mt-32 lg:mt-40">
+    <section id="home" className="flex mt-24 md:mt-32 lg:mt-40 px-12 md:px-20 lg:px-28 xl:px-40">
       <div className="w-5/6 md:w-3/5 lg:w-2/5 h-[35rem] relative mx-auto bg-[#EBDBC4]">
         <img src="/img/border-profil.png" alt="border-profil" className="size-full absolute z-20" />
         <img src="/img/kapal-bajak-laut-vintage.jpg" alt="kapal-bajak-laut" className="w-full h-[60%] absolute bottom-[28%] lg:bottom-[30%] xl:bottom-[35%] z-10" />
