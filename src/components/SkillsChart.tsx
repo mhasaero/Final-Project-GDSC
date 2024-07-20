@@ -3,7 +3,7 @@ import { AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordio
 
 type Props = { children: string; rate: number; item: string };
 
-export default function SkillsChart({ children, rate, item, ...props }: Props) {
+export default function SkillsChart({ children, rate, item }: Props) {
   return (
     // <li className="flex items-center justify-between gap-6 md:gap-8 lg:gap-12">
     //   <h3>
