@@ -6,6 +6,7 @@ import ErrorPage from "./components/ErrorPage.tsx";
 import Contact from "./components/Contact.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Game from "./components/Game/Game.tsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,14 @@ const router = createBrowserRouter([
     element: (
       <>
         <Contact />
+      </>
+    ),
+  },
+  {
+    path: "game",
+    element: (
+      <>
+        <Game />
       </>
     ),
   },
