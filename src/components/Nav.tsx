@@ -8,7 +8,9 @@ export default function Nav() {
       <nav id="navbar" className="left-12 right-12 md:left-20 md:right-20 lg:left-28 lg:right-28 xl:left-40 xl:right-40 text-md md:text-lg lg:text-xl xl:text-2xl items-center pt-2 lg:pt-4 text-primary *: fixed top-0 z-50 backdrop-blur-xl">
         <div className="flex justify-between">
           <div>
-            <h2>M. Ilham Syafik</h2>
+            <h2>
+              <Link to={"/"}>M. Ilham Syafik</Link>
+            </h2>
           </div>
           <Sheet>
             <SheetTrigger className="md:hidden">
@@ -56,7 +58,7 @@ export default function Nav() {
                     Lorem,{" "}
                     <strong>
                       <a href="" className="text-sm">
-                        CONTACT
+                        <Link to={"/contact"}>CONTACT</Link>
                       </a>
                     </strong>{" "}
                     sit amet adipisicing elit. Minima odit laborum ullam. Dignissimos nisi reiciendis harum repellendus, odio quasi! Eos totam possimus rem sit corrupti eligendi magni. Nisi.
@@ -77,7 +79,7 @@ export default function Nav() {
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <Link to={"/contact"}>Contact</Link>
             </li>
           </ul>
         </div>
