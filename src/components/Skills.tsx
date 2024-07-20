@@ -1,4 +1,3 @@
-import React from "react";
 import SkillsChart from "./SkillsChart";
 import { Accordion } from "./ui/accordion";
 import { Flag } from "lucide-react";

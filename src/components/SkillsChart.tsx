@@ -1,6 +1,5 @@
-import React from "react";
 import { Bone } from "lucide-react";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
+import { AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
 
 type Props = { children: string; rate: number; item: string };
 

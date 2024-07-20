@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-import React from "react";
 import { cn } from "../lib/utils";
 
 type Props = { children: string; head: string; className: string };
