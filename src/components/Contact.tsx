@@ -7,30 +7,13 @@ import { LogOut } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import "./../lib/firebaseConfig";
-import { getFirestore, addDoc, collection } from "firebase/firestore";
-import { app } from "../lib/firebaseConfig";
 
 export default function Contact() {
   const form = useForm();
   const { register, handleSubmit } = useForm();
 
-  const addContact = async (data: any) => {
-    const db = getFirestore(app);
-
-    // const docRef = await addDoc(collection(db, "myCollection"), {
-    //   username: data.username,
-    //   textarea: data.textarea,
-    // });
-
-    await addDoc(collection(db, "myCollection"), {
-      username: data.username,
-      textarea: data.textarea,
-    });
-  };
-
   const onSubmit = async (data: any) => {
     console.log(data.username, data.textarea);
-    addContact(data);
   };
 
   return (
@@ -40,7 +23,7 @@ export default function Contact() {
       </Link>
 
       <img src="/img/medieval-board.png" alt="scroll" className="h-screen w-screen mx-auto absolute top-0" />
-      <div className="absolute top-[15%] left-[16%] md:left-[44%] z-10 bg-[url('/img/scroll.png')] bg-cover p-20 lg:p-16 xl:p-20 w-96 lg:w-80 xl:w-96 space-y-2 ">
+      <div className="absolute top-[15%] md:left-[44%] z-10 bg-[url('/img/scroll.png')] bg-cover p-20 lg:p-16 xl:p-20 w-full md:w-96 space-y-2 ">
         <h3 className="text-primary text-xl xl:text-2xl text-center">
           <strong>High Rank Bounty !</strong>
         </h3>

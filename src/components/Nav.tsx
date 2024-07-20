@@ -44,22 +44,22 @@ export default function Nav() {
                   <strong>Lorem Ipsum Dolores unde Maxime ?</strong>
                 </h3>
                 <div className="flex gap-2 text-justify">
-                  <p className="text-xs">Lorem, ipsum dolor sit amet adipisicing elit. Minima odit laborum ullam. Dignissimos nisi reiciendis harum repellendus, odio quasi! Eos totam possimus rem sit corrupti eligendi magni. Nisi.</p>
+                  <p className="text-xs">
+                    Lorem, ipsum dolor sit amet adipisicing elit. Minima odit laborum ullam. Dignissimos nisi reiciendis harum repellendus, odio quasi! <Link to={"/game"}>game</Link> possimus rem sit corrupti eligendi magni. Nisi.
+                  </p>
                   <p className="text-xs">
                     Lorem, ipsum dolor sit amet adipisicing elit. Minima odit laborum ullam. Dignissimos nisi reiciendis{" "}
-                    <strong>
-                      <a href="#skills" className="text-sm">
-                        SKILLS
-                      </a>
-                    </strong>{" "}
+                    <a href="#skills" className="text-sm">
+                      <strong>SKILLS</strong>
+                    </a>{" "}
                     repellendus, odio quasi! Eos totam possimus rem sit corrupti eligendi magni. Nisi.
                   </p>
                   <p className="text-xs">
                     Lorem,{" "}
                     <strong>
-                      <a href="" className="text-sm">
-                        <Link to={"/contact"}>CONTACT</Link>
-                      </a>
+                      <Link to={"/contact"} className="text-sm">
+                        CONTACT
+                      </Link>
                     </strong>{" "}
                     sit amet adipisicing elit. Minima odit laborum ullam. Dignissimos nisi reiciendis harum repellendus, odio quasi! Eos totam possimus rem sit corrupti eligendi magni. Nisi.
                   </p>
