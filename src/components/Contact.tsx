@@ -6,7 +6,7 @@ import { Textarea } from "./ui/textarea";
 import { LogOut } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import "./../lib/firebaseConfig";
+import "../../public/utils/firebaseConfig";
 
 export default function Contact() {
   const form = useForm();
