@@ -13,7 +13,11 @@ export default function Contact() {
   const { register, handleSubmit } = useForm();
 
   const onSubmit = async (data: any) => {
-    console.log(data.username, data.textarea);
+    const newDocRef = doc(collection(db, "users"));
+    await setDoc(newDocRef, {
+      email: email,
+      password: password,
+    });
   };
 
   return (
